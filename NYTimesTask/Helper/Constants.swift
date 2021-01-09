@@ -14,7 +14,7 @@ struct Constants{
     }
     
     struct StoryBoardIDs {
-        static let ArticleListScene = "StoreScene"
-        static let ArticleDetailsScene = "MainTab"
+        static let ArticleListScene = "ArticlesList"
+        static let ArticleDetailsScene = "ArticleDetails"
     }
 }

@@ -17,13 +17,13 @@ class MainCoordinator: Coordinator {
     }
 
     func start() {
-        let articlesListVC = ArticlesListViewController.instantiate(storyboardName: "ArticlesList")
+        let articlesListVC = ArticlesListViewController.instantiate(storyboardName: Constants.StoryBoardIDs.ArticleListScene)
         articlesListVC.coordinator = self
         navigationController.pushViewController(articlesListVC, animated: true)
     }
     func showArticleDetails(article:Article)
     {
-        let articlesDetailsVC = ArticleDetailsViewController.instantiate(storyboardName: "ArticleDetails")
+        let articlesDetailsVC = ArticleDetailsViewController.instantiate(storyboardName: Constants.StoryBoardIDs.ArticleDetailsScene)
         articlesDetailsVC.coordinator = self
         articlesDetailsVC.viewModel.article = article
         navigationController.pushViewController(articlesDetailsVC, animated: true)
