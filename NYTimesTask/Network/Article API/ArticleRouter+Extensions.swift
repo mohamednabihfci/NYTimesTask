@@ -7,7 +7,6 @@
 
 import Moya
 
-
 extension ArticleRouter: TargetType {
     
     var path: String {
