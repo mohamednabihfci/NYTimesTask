@@ -19,18 +19,11 @@ class ArticleListUITests: XCTestCase {
         app.launch()
         
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testClickToFirstTableViewCell() {
+
+    func testClickToTableViewCell() {
         let myTable = app.tables.matching(identifier: "TableView--Articles")
            let cell = myTable.cells.element(matching: .cell, identifier: "cell_0")
-           cell.tap()
-
-        
+           cell.tap()        
     }
 
 

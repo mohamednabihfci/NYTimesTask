@@ -34,6 +34,7 @@ class ArticlesClientTests: XCTestCase {
             XCTFail()
             return
         }
+        
         // Then
         XCTAssertEqual(popularArticles.status, "OK")
         XCTAssertGreaterThan(popularArticles.results?.count ?? 0, 0, "Empty result")
