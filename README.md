@@ -6,7 +6,7 @@ NYTimesTask
 
 * I install some dependeces:
    - `Moya/RxSwift` - `RxCocoa`: for handling network and binding the data.
-   - `RxBlocking`: help me in unit testing capabilities.
+   - `RxBlocking`: Provides testing capabilities for Rx-based systems.
 
 * I wrote some unit tests
    - `testAriclesAPIRequest`: to test loading articles with mock object.
