@@ -14,5 +14,10 @@ extension TargetType
     var baseURL: URL {
         return URL(string: Constants.APIS.BASE_URL)!
     }
+    // These are the headers that our service requires.
+    var headers: [String : String]? { nil }
     
+    var sampleData: Data { Data() }
+    
+    var validationType: ValidationType { .successAndRedirectCodes }
 }

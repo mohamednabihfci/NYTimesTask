@@ -20,11 +20,13 @@ class ArticleListUITests: XCTestCase {
         
     }
 
-    func testClickToTableViewCell() {
+    func testClickCellToShowDetails() {
         let myTable = app.tables.matching(identifier: "TableView--Articles")
            let cell = myTable.cells.element(matching: .cell, identifier: "cell_0")
-           cell.tap()        
+           cell.tap()
+        XCTAssertNotNil(app.staticTexts["titleLabl"].label, "Title not binded with value")
     }
+
 
 
 }

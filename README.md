@@ -15,7 +15,7 @@ NYTimesTask
    - `testIfDescriptionBindedWithValue`: to test if description binding with value on article details.
    
 * I wrote  UI tests
-   - `testClickToTableViewCell`: to test a click on a cell of table view.
+   - `testClickCellToShowDetails`: to test a click on a cell to show article details.
  
 * To generate the coverage report:
    - Select Edit Scheme from the scheme editor menu.

@@ -10,15 +10,13 @@ import Moya
 
 extension ArticleRouter: TargetType {
     
-    // This is the path of each operation that will be appended to our base URL.
-    var path: String {
+        var path: String {
         switch self {
         case .getPopularArticles(let period):
             return "mostpopular/v2/viewed/\(period).json"
         }
     }
     
-    // Here we specify which method our calls should use.
     var method: Method {
         switch self {
         case .getPopularArticles:
@@ -34,10 +32,5 @@ extension ArticleRouter: TargetType {
         }
     }
     
-    // These are the headers that our service requires.
-    var headers: [String : String]? { nil }
-    
-    var sampleData: Data { Data() }
-    
-    var validationType: ValidationType { .successAndRedirectCodes }
+   
 }
