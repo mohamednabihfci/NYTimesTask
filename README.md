@@ -21,4 +21,4 @@ NYTimesTask
    - Select Edit Scheme from the scheme editor menu.
    - Select the Test action.
    - Enable the Code Coverage checkbox to gather coverage data.
-   - Click on  report navigator ,under Test you will see Covergae then click to it you will see coverage report of app.
+   - Click on  report navigator ,under Test you will see Coverage then click to it you will see coverage report of app.
