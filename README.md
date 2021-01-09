@@ -11,8 +11,8 @@ NYTimesTask
 
 * I wrote some unit tests:
    - `testAriclesAPIRequest`: to test loading articles with mock object.
-   - `testIfTitleBindedWithValue`: to test if title binding with value on article details.
-   - `testIfDescriptionBindedWithValue`: to test if description binding with value on article details.
+   - `testIfTitleBindedWithValue`: to test if title binding with value in article details.
+   - `testIfDescriptionBindedWithValue`: to test if description binding with value in article details.
    
 * I wrote  UI tests:
    - `testClickCellToShowDetails`: to test a click on a cell to show article details.
