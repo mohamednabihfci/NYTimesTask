@@ -10,7 +10,7 @@ import Moya
 
 extension ArticleRouter: TargetType {
     
-        var path: String {
+    var path: String {
         switch self {
         case .getPopularArticles(let period):
             return "mostpopular/v2/viewed/\(period).json"
