@@ -5,7 +5,7 @@ NYTimesTask
     
 * I applied the Coordinator patterrn for handling navigation in app.
 
-* I install some dependeces:
+* I install some dependencies:
    - `Moya/RxSwift` - `RxCocoa`: for handling network and binding the data.
    - `RxBlocking`: Provides testing capabilities for Rx-based systems.
 
