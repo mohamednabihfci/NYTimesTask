@@ -23,7 +23,7 @@ class ArticlesListViewModel
         articleClient
             .fetchPopularArticles(period: period).subscribe(onNext: { [unowned self] (model) in
                 self.articles.accept(model.results ?? [])
-                showLoading.accept(false)
+                self.showLoading.accept(false)
             }, onError: { (error) in
                 self.showLoading.accept(false)
                 print(error)
